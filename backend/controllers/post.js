@@ -1,5 +1,5 @@
 const Post = require('../models/post');
-
+require = 'express-async-errors'
 
 exports.createPost = async (req, res) => {
 

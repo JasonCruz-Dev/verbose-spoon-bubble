@@ -1,6 +1,9 @@
 const mongoose = require('mongoose');
 
-const postSchema = mongoose.Schema({
+const Schema = mongoose.Schema;
+
+const postSchema = new Schema({
+
     title: {
         type: String,
         required: true,
@@ -42,9 +45,6 @@ const postSchema = mongoose.Schema({
     },
 }, {
     timestamps: true,
-},
-{
-    collection: 'Post'
 },
 );
 

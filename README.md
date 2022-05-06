@@ -29,6 +29,14 @@ ___
 
 <br>
 
+<h2><b>INSTALLING STANDALONE PROGRAMS</b></h2>
+
+<BR>
+
+- [Robo 3T](https://robomongo.org/)
+
+<BR>
+
 <h2 id="cheatsheet"><b>CheatSheet Reference</b></h2>
 
 <br>
@@ -86,6 +94,11 @@ ___
 - Express-Validator (Express Validator is a middleware)
 - Express-Async-Errors
 - Cors
+
+And for testing:
+
+- Mocha
+- Jest
 
 <br>
 
