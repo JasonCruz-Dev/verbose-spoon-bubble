@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Development_PC\.yarn\bin\yarn.js update
+
+PATH: 
+  C:\Users\Development_PC\.yarn\bin;C:\Users\Development_PC\.config\yarn\global\node_modules\.bin;C:\Users\Development_PC\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Development_PC\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Scripts;C:\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\Development_PC\AppData\Local\pip;C:\Users\Development_PC\Downloads\platform-tools_r32.0.0-windows\platform-tools;C:\Windows\System32\edgetpu_runtime;C:\Program Files\PuTTY;C:\Users\Development_PC\Desktop\VSCode Data\RearWarn Windows 10;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\Development_PC\Desktop\tensorflow;C:\msys64;C:\msys64\usr\bin;C:\Users\Development_PC\Desktop\tensorflow\tools;C:\python.exe;C:\Program Files\nodejs;C:\Users\Development_PC\.yarn;C:\Program Files\CMake\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\dotnet;C:\Program Files (x86)\IncrediBuild;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\Development_PC\AppData\Roaming\Python\Python310\Scripts;C:\Users\Development_PC\AppData\Roaming\npm;C:\Users\Development_PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Development_PC\.dotnet\tools;C:\Program Files (x86)\Nmap;C:\Program Files\JetBrains\PyCharm 2021.3.3\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;C:\MongoDB\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Development_PC\Desktop\Development Code\caserta-react-native\client\package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Users\Development_PC\.yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Development_PC\.yarn\lib\cli.js:310:30)
+      at C:\Users\Development_PC\.yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "bc-think",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~45.0.0",
+      "expo-status-bar": "~1.3.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-native": "0.68.1",
+      "react-native-web": "0.17.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
