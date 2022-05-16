@@ -1,0 +1,11 @@
+POST http://localhost:4848/
+Content-Type: application/json
+
+{
+    "name": "Jason Cruz",
+    "email": "jasoncruz.dev@gmail.com",
+    "date": "5/8/2022"
+}
+
+
+###

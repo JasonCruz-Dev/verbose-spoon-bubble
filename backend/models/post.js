@@ -43,10 +43,15 @@ const postSchema = new Schema({
             type: String,
         }
     },
-}, {
-    timestamps: true,
-},
+}, 
+    {
+        timestamps: true,
+    },
 );
+
+// client.create(postSchema).then((res) => {
+//     console.log(`This ${res.postSchema}document was created.`)
+// })
 
 // Whatever you reference 'Post' in your schema, you have to reference it under tags: String, ref: 'Auth';
 module.exports = mongoose.model('Post', postSchema);

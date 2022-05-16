@@ -1,5 +1,4 @@
 const Post = require('../models/post');
-require = 'express-async-errors'
 
 exports.createPost = async (req, res) => {
 
@@ -13,7 +12,3 @@ exports.createPost = async (req, res) => {
         
 
 };
-
-
-
-// Create a blueprint of Posts

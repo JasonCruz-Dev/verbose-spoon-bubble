@@ -1,8 +1,12 @@
 const mongoose = require('mongoose');
 
-const uri = 'mongodb://127.0.0.1:27017/bc-think'
+const uri = 'mongodb://localhost:27017/'
 
-mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true })
+mongoose.connect(uri, 
+    { 
+        useUnifiedTopology: true, 
+        useNewUrlParser: true 
+    })
 
 // mongoose.connection
 .then(() => console.log('db connected'))

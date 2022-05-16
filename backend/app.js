@@ -2,7 +2,7 @@
 // Documented by Jason Cruz
 // 5/16/2022
 
-// const mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 // Declare your Express Middleware
 const express = require('express');

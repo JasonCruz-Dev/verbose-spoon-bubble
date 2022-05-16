@@ -88,8 +88,8 @@ ___
 - Express
 - Dotenv
 - Mongoose
-- Morgan
-- Nodemon
+- Morgan -D
+- Nodemon -D
 - Multer
 - Express-Validator (Express Validator is a middleware)
 - Express-Async-Errors
